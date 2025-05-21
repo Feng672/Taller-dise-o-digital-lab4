@@ -2,7 +2,7 @@
 .global _start
 
 _start:
-    mov r0, #5           // X = 5 (cambia este valor para probar)
+    mov r0, #5           // X = 5 
     mov r1, #1           // result = 1
     mov r2, #1           // i = 1
 
@@ -15,5 +15,5 @@ loop:
     b loop
 
 end:
-    // R1 contiene el factorial de X (ej: 5! = 120)
+    // R1 contiene el factorial de X 
     b end
